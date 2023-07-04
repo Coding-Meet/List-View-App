@@ -21,5 +21,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,SimpleListViewActivity::class.java))
         }
 
+
+        val customArrayAdapterViewBtn = findViewById<Button>(R.id.customArrayAdapterViewBtn)
+        customArrayAdapterViewBtn.setOnClickListener {
+            startActivity(Intent(this,CustomArrayAdapterActivity::class.java))
+        }
     }
 }

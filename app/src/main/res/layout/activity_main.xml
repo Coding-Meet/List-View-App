@@ -15,5 +15,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Simple ListView"/>
-
+    <Button
+        android:id="@+id/customArrayAdapterViewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom ArrayAdapter in ListView"/>
 </LinearLayout>
